@@ -1,0 +1,8 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    -for (let i=0; i<results.length; i++)
+      ul
+        li #{results[i].customerName}
